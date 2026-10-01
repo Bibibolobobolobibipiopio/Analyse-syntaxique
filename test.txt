@@ -1,0 +1,15 @@
+BaisserPinceau;
+Var distance = 200;
+Avancer distance;
+Tourner 90;
+Si distance < 0 Alors
+Debut
+distance = distance- 100;
+Avancer distance;
+Tourner 90;
+Fin
+Sinon
+Debut
+distance = distance- 50;
+Avancer distance;
+Fin;
